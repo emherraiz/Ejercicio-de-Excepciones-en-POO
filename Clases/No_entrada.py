@@ -1,4 +1,4 @@
-def si_hay_correo_introducido(cadena):
+def No_hay_correo_introducido(cadena):
     if cadena is None or cadena == '':
         return True
     else:

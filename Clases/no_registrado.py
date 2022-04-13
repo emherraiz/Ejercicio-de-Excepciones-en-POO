@@ -1,4 +1,4 @@
-from correos_registrados import *
+from Clases.correos_registrados import *
 def registro(cadena):
     if cadena in correos_registrados:
         return True

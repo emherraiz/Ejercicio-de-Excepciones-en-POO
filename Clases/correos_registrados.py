@@ -1,3 +1,4 @@
+import os
 class Registro:
     def __init__(self, correos):
         self.correos = correos
