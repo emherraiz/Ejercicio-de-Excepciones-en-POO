@@ -1,4 +1,3 @@
-import os
 class Registro:
     def __init__(self, correos):
         self.correos = correos
@@ -40,8 +39,5 @@ while continuar == True:
         continuar = False
     else:
         print('Introduzca una opcion correcta')
-
-
-
 
 correos_registrados = modificar_registro.devolver_correos()

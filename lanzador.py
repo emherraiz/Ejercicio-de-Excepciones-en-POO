@@ -1,4 +1,3 @@
-import sys
 from Clases.No_entrada import *
 from Clases.Mal_formateado import *
 from Clases.no_registrado import *
@@ -29,6 +28,8 @@ def correo_correcto(cadena):
     elif registro(cadena):
         raise No_esta_en_la_base(cadena)
 
-cadena = input('Introduce un correo:')
-correo_correcto(cadena)
+def comprobar_si_correo_correcto(cadena):
+    correo_correcto(cadena)
+
+
 
